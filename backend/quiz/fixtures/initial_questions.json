@@ -1,0 +1,1830 @@
+[
+  {
+    "model": "quiz.category",
+    "pk": 1,
+    "fields": {
+      "name": "HTML"
+    }
+  },
+  {
+    "model": "quiz.category",
+    "pk": 2,
+    "fields": {
+      "name": "CSS"
+    }
+  },
+  {
+    "model": "quiz.category",
+    "pk": 3,
+    "fields": {
+      "name": "JavaScript"
+    }
+  },
+  {
+    "model": "quiz.category",
+    "pk": 4,
+    "fields": {
+      "name": "React"
+    }
+  },
+  {
+    "model": "quiz.question",
+    "pk": 1,
+    "fields": {
+      "category": 1,
+      "difficulty": "easy",
+      "question_text": "What does HTML stand for?",
+      "option_a": "Hyper Text Markup Language",
+      "option_b": "High Text Machine Language",
+      "option_c": "Hyper Transfer Markup Language",
+      "option_d": "Home Tool Markup Language",
+      "correct_option": "A",
+      "is_active": true
+    }
+  },
+  {
+    "model": "quiz.question",
+    "pk": 2,
+    "fields": {
+      "category": 1,
+      "difficulty": "easy",
+      "question_text": "Which tag is used to create a paragraph?",
+      "option_a": "<p>",
+      "option_b": "<para>",
+      "option_c": "<text>",
+      "option_d": "<paragraph>",
+      "correct_option": "A",
+      "is_active": true
+    }
+  },
+  {
+    "model": "quiz.question",
+    "pk": 3,
+    "fields": {
+      "category": 1,
+      "difficulty": "easy",
+      "question_text": "Which tag is used to create a hyperlink?",
+      "option_a": "<link>",
+      "option_b": "<a>",
+      "option_c": "<href>",
+      "option_d": "<url>",
+      "correct_option": "B",
+      "is_active": true
+    }
+  },
+  {
+    "model": "quiz.question",
+    "pk": 4,
+    "fields": {
+      "category": 1,
+      "difficulty": "easy",
+      "question_text": "Which tag is used to display an image?",
+      "option_a": "<img>",
+      "option_b": "<image>",
+      "option_c": "<pic>",
+      "option_d": "<src>",
+      "correct_option": "A",
+      "is_active": true
+    }
+  },
+  {
+    "model": "quiz.question",
+    "pk": 5,
+    "fields": {
+      "category": 1,
+      "difficulty": "easy",
+      "question_text": "Which HTML tag is used for the largest heading?",
+      "option_a": "<h6>",
+      "option_b": "<heading>",
+      "option_c": "<h1>",
+      "option_d": "<head>",
+      "correct_option": "C",
+      "is_active": true
+    }
+  },
+  {
+    "model": "quiz.question",
+    "pk": 6,
+    "fields": {
+      "category": 1,
+      "difficulty": "easy",
+      "question_text": "Which attribute provides alternate text for an image?",
+      "option_a": "title",
+      "option_b": "alt",
+      "option_c": "src",
+      "option_d": "href",
+      "correct_option": "B",
+      "is_active": true
+    }
+  },
+  {
+    "model": "quiz.question",
+    "pk": 7,
+    "fields": {
+      "category": 1,
+      "difficulty": "easy",
+      "question_text": "Which tag is used to create an unordered list?",
+      "option_a": "<ul>",
+      "option_b": "<ol>",
+      "option_c": "<li>",
+      "option_d": "<list>",
+      "correct_option": "A",
+      "is_active": true
+    }
+  },
+  {
+    "model": "quiz.question",
+    "pk": 8,
+    "fields": {
+      "category": 1,
+      "difficulty": "easy",
+      "question_text": "Which tag is used to create a table row?",
+      "option_a": "<td>",
+      "option_b": "<tr>",
+      "option_c": "<th>",
+      "option_d": "<table-row>",
+      "correct_option": "B",
+      "is_active": true
+    }
+  },
+  {
+    "model": "quiz.question",
+    "pk": 9,
+    "fields": {
+      "category": 1,
+      "difficulty": "easy",
+      "question_text": "Which input type is used for passwords?",
+      "option_a": "text",
+      "option_b": "hidden",
+      "option_c": "password",
+      "option_d": "secure",
+      "correct_option": "C",
+      "is_active": true
+    }
+  },
+  {
+    "model": "quiz.question",
+    "pk": 10,
+    "fields": {
+      "category": 1,
+      "difficulty": "easy",
+      "question_text": "Which tag contains metadata about the document?",
+      "option_a": "<body>",
+      "option_b": "<main>",
+      "option_c": "<head>",
+      "option_d": "<footer>",
+      "correct_option": "C",
+      "is_active": true
+    }
+  },
+  {
+    "model": "quiz.question",
+    "pk": 11,
+    "fields": {
+      "category": 1,
+      "difficulty": "medium",
+      "question_text": "Which HTML5 tag represents independent self-contained content?",
+      "option_a": "<section>",
+      "option_b": "<article>",
+      "option_c": "<aside>",
+      "option_d": "<main>",
+      "correct_option": "B",
+      "is_active": true
+    }
+  },
+  {
+    "model": "quiz.question",
+    "pk": 12,
+    "fields": {
+      "category": 1,
+      "difficulty": "medium",
+      "question_text": "Which attribute is used to open a link in a new tab?",
+      "option_a": "target=\"_blank\"",
+      "option_b": "new=\"true\"",
+      "option_c": "open=\"new\"",
+      "option_d": "tab=\"new\"",
+      "correct_option": "A",
+      "is_active": true
+    }
+  },
+  {
+    "model": "quiz.question",
+    "pk": 13,
+    "fields": {
+      "category": 1,
+      "difficulty": "medium",
+      "question_text": "Which input type is used to select a date?",
+      "option_a": "calendar",
+      "option_b": "datetime",
+      "option_c": "date",
+      "option_d": "time-date",
+      "correct_option": "C",
+      "is_active": true
+    }
+  },
+  {
+    "model": "quiz.question",
+    "pk": 14,
+    "fields": {
+      "category": 1,
+      "difficulty": "medium",
+      "question_text": "Which tag is used to group options inside a select element?",
+      "option_a": "<group>",
+      "option_b": "<optgroup>",
+      "option_c": "<optiongroup>",
+      "option_d": "<fieldset>",
+      "correct_option": "B",
+      "is_active": true
+    }
+  },
+  {
+    "model": "quiz.question",
+    "pk": 15,
+    "fields": {
+      "category": 1,
+      "difficulty": "medium",
+      "question_text": "Which element is used to define navigation links?",
+      "option_a": "<nav>",
+      "option_b": "<menu>",
+      "option_c": "<links>",
+      "option_d": "<navigate>",
+      "correct_option": "A",
+      "is_active": true
+    }
+  },
+  {
+    "model": "quiz.question",
+    "pk": 16,
+    "fields": {
+      "category": 1,
+      "difficulty": "medium",
+      "question_text": "Which attribute is used to associate a label with an input?",
+      "option_a": "name",
+      "option_b": "for",
+      "option_c": "id",
+      "option_d": "target",
+      "correct_option": "B",
+      "is_active": true
+    }
+  },
+  {
+    "model": "quiz.question",
+    "pk": 17,
+    "fields": {
+      "category": 1,
+      "difficulty": "medium",
+      "question_text": "Which element is used for emphasized text?",
+      "option_a": "<strong>",
+      "option_b": "<em>",
+      "option_c": "<mark>",
+      "option_d": "<small>",
+      "correct_option": "B",
+      "is_active": true
+    }
+  },
+  {
+    "model": "quiz.question",
+    "pk": 18,
+    "fields": {
+      "category": 1,
+      "difficulty": "medium",
+      "question_text": "Which tag is used to embed video content?",
+      "option_a": "<media>",
+      "option_b": "<movie>",
+      "option_c": "<video>",
+      "option_d": "<source>",
+      "correct_option": "C",
+      "is_active": true
+    }
+  },
+  {
+    "model": "quiz.question",
+    "pk": 19,
+    "fields": {
+      "category": 1,
+      "difficulty": "medium",
+      "question_text": "Which tag represents the main content of the document?",
+      "option_a": "<content>",
+      "option_b": "<main>",
+      "option_c": "<body-main>",
+      "option_d": "<section>",
+      "correct_option": "B",
+      "is_active": true
+    }
+  },
+  {
+    "model": "quiz.question",
+    "pk": 20,
+    "fields": {
+      "category": 1,
+      "difficulty": "medium",
+      "question_text": "Which attribute makes an input mandatory?",
+      "option_a": "validate",
+      "option_b": "required",
+      "option_c": "mandatory",
+      "option_d": "needed",
+      "correct_option": "B",
+      "is_active": true
+    }
+  },
+  {
+    "model": "quiz.question",
+    "pk": 21,
+    "fields": {
+      "category": 1,
+      "difficulty": "hard",
+      "question_text": "What is the main difference between async and defer scripts?",
+      "option_a": "Both block parsing",
+      "option_b": "async executes when downloaded, defer executes after parsing",
+      "option_c": "defer executes before parsing",
+      "option_d": "async always preserves order",
+      "correct_option": "B",
+      "is_active": true
+    }
+  },
+  {
+    "model": "quiz.question",
+    "pk": 22,
+    "fields": {
+      "category": 1,
+      "difficulty": "hard",
+      "question_text": "Which element improves accessibility by defining a caption for a figure?",
+      "option_a": "<caption>",
+      "option_b": "<figcaption>",
+      "option_c": "<legend>",
+      "option_d": "<summary>",
+      "correct_option": "B",
+      "is_active": true
+    }
+  },
+  {
+    "model": "quiz.question",
+    "pk": 23,
+    "fields": {
+      "category": 1,
+      "difficulty": "hard",
+      "question_text": "Which ARIA attribute indicates the current page in navigation?",
+      "option_a": "aria-page",
+      "option_b": "aria-current",
+      "option_c": "aria-active",
+      "option_d": "aria-selected",
+      "correct_option": "B",
+      "is_active": true
+    }
+  },
+  {
+    "model": "quiz.question",
+    "pk": 24,
+    "fields": {
+      "category": 1,
+      "difficulty": "hard",
+      "question_text": "Which tag creates a disclosure widget?",
+      "option_a": "<details>",
+      "option_b": "<dialog>",
+      "option_c": "<summary>",
+      "option_d": "<collapse>",
+      "correct_option": "A",
+      "is_active": true
+    }
+  },
+  {
+    "model": "quiz.question",
+    "pk": 25,
+    "fields": {
+      "category": 1,
+      "difficulty": "hard",
+      "question_text": "Which tag provides a visible heading for a fieldset?",
+      "option_a": "<caption>",
+      "option_b": "<label>",
+      "option_c": "<legend>",
+      "option_d": "<title>",
+      "correct_option": "C",
+      "is_active": true
+    }
+  },
+  {
+    "model": "quiz.question",
+    "pk": 26,
+    "fields": {
+      "category": 1,
+      "difficulty": "hard",
+      "question_text": "What does the loading=\"lazy\" attribute on img do?",
+      "option_a": "Preloads all images",
+      "option_b": "Delays loading until needed",
+      "option_c": "Disables image loading",
+      "option_d": "Compresses image",
+      "correct_option": "B",
+      "is_active": true
+    }
+  },
+  {
+    "model": "quiz.question",
+    "pk": 27,
+    "fields": {
+      "category": 1,
+      "difficulty": "hard",
+      "question_text": "Which tag is used to provide multiple media resources for video or audio?",
+      "option_a": "<source>",
+      "option_b": "<track>",
+      "option_c": "<media>",
+      "option_d": "<embed>",
+      "correct_option": "A",
+      "is_active": true
+    }
+  },
+  {
+    "model": "quiz.question",
+    "pk": 28,
+    "fields": {
+      "category": 1,
+      "difficulty": "hard",
+      "question_text": "Which attribute helps prevent tabnabbing with target=\"_blank\" links?",
+      "option_a": "rel=\"noopener\"",
+      "option_b": "secure=\"true\"",
+      "option_c": "safe=\"blank\"",
+      "option_d": "target=\"safe\"",
+      "correct_option": "A",
+      "is_active": true
+    }
+  },
+  {
+    "model": "quiz.question",
+    "pk": 29,
+    "fields": {
+      "category": 1,
+      "difficulty": "hard",
+      "question_text": "Which element is best for a modal dialog in modern HTML?",
+      "option_a": "<modal>",
+      "option_b": "<dialog>",
+      "option_c": "<popup>",
+      "option_d": "<window>",
+      "correct_option": "B",
+      "is_active": true
+    }
+  },
+  {
+    "model": "quiz.question",
+    "pk": 30,
+    "fields": {
+      "category": 1,
+      "difficulty": "hard",
+      "question_text": "Which attribute identifies a form even if an input is outside the form tag?",
+      "option_a": "form",
+      "option_b": "formid",
+      "option_c": "target",
+      "option_d": "owner",
+      "correct_option": "A",
+      "is_active": true
+    }
+  },
+  {
+    "model": "quiz.question",
+    "pk": 31,
+    "fields": {
+      "category": 2,
+      "difficulty": "easy",
+      "question_text": "What does CSS stand for?",
+      "option_a": "Creative Style Sheets",
+      "option_b": "Cascading Style Sheets",
+      "option_c": "Computer Style Sheets",
+      "option_d": "Colorful Style Sheets",
+      "correct_option": "B",
+      "is_active": true
+    }
+  },
+  {
+    "model": "quiz.question",
+    "pk": 32,
+    "fields": {
+      "category": 2,
+      "difficulty": "easy",
+      "question_text": "Which property changes text color?",
+      "option_a": "font-color",
+      "option_b": "text-color",
+      "option_c": "color",
+      "option_d": "background-color",
+      "correct_option": "C",
+      "is_active": true
+    }
+  },
+  {
+    "model": "quiz.question",
+    "pk": 33,
+    "fields": {
+      "category": 2,
+      "difficulty": "easy",
+      "question_text": "Which property changes background color?",
+      "option_a": "bgcolor",
+      "option_b": "background-color",
+      "option_c": "color-background",
+      "option_d": "background",
+      "correct_option": "B",
+      "is_active": true
+    }
+  },
+  {
+    "model": "quiz.question",
+    "pk": 34,
+    "fields": {
+      "category": 2,
+      "difficulty": "easy",
+      "question_text": "Which selector targets an element by id?",
+      "option_a": ".id",
+      "option_b": "#id",
+      "option_c": "id",
+      "option_d": "*id",
+      "correct_option": "B",
+      "is_active": true
+    }
+  },
+  {
+    "model": "quiz.question",
+    "pk": 35,
+    "fields": {
+      "category": 2,
+      "difficulty": "easy",
+      "question_text": "Which selector targets elements by class?",
+      "option_a": "#class",
+      "option_b": ".class",
+      "option_c": "class",
+      "option_d": "*class",
+      "correct_option": "B",
+      "is_active": true
+    }
+  },
+  {
+    "model": "quiz.question",
+    "pk": 36,
+    "fields": {
+      "category": 2,
+      "difficulty": "easy",
+      "question_text": "Which property controls font size?",
+      "option_a": "text-size",
+      "option_b": "font-size",
+      "option_c": "size",
+      "option_d": "font-style",
+      "correct_option": "B",
+      "is_active": true
+    }
+  },
+  {
+    "model": "quiz.question",
+    "pk": 37,
+    "fields": {
+      "category": 2,
+      "difficulty": "easy",
+      "question_text": "Which value makes text bold?",
+      "option_a": "font-weight: bold",
+      "option_b": "text-bold: true",
+      "option_c": "font-style: bold",
+      "option_d": "weight: bold",
+      "correct_option": "A",
+      "is_active": true
+    }
+  },
+  {
+    "model": "quiz.question",
+    "pk": 38,
+    "fields": {
+      "category": 2,
+      "difficulty": "easy",
+      "question_text": "Which property adds space inside an element?",
+      "option_a": "margin",
+      "option_b": "padding",
+      "option_c": "border",
+      "option_d": "gap",
+      "correct_option": "B",
+      "is_active": true
+    }
+  },
+  {
+    "model": "quiz.question",
+    "pk": 39,
+    "fields": {
+      "category": 2,
+      "difficulty": "easy",
+      "question_text": "Which property adds space outside an element?",
+      "option_a": "padding",
+      "option_b": "margin",
+      "option_c": "outline",
+      "option_d": "inside",
+      "correct_option": "B",
+      "is_active": true
+    }
+  },
+  {
+    "model": "quiz.question",
+    "pk": 40,
+    "fields": {
+      "category": 2,
+      "difficulty": "easy",
+      "question_text": "Which property controls element width?",
+      "option_a": "height",
+      "option_b": "size",
+      "option_c": "width",
+      "option_d": "length",
+      "correct_option": "C",
+      "is_active": true
+    }
+  },
+  {
+    "model": "quiz.question",
+    "pk": 41,
+    "fields": {
+      "category": 2,
+      "difficulty": "medium",
+      "question_text": "Which CSS layout model is best for one-dimensional layouts?",
+      "option_a": "Grid",
+      "option_b": "Flexbox",
+      "option_c": "Float",
+      "option_d": "Position",
+      "correct_option": "B",
+      "is_active": true
+    }
+  },
+  {
+    "model": "quiz.question",
+    "pk": 42,
+    "fields": {
+      "category": 2,
+      "difficulty": "medium",
+      "question_text": "Which property enables flexbox?",
+      "option_a": "display: flex",
+      "option_b": "position: flex",
+      "option_c": "flex: true",
+      "option_d": "layout: flex",
+      "correct_option": "A",
+      "is_active": true
+    }
+  },
+  {
+    "model": "quiz.question",
+    "pk": 43,
+    "fields": {
+      "category": 2,
+      "difficulty": "medium",
+      "question_text": "Which property aligns flex items horizontally by default?",
+      "option_a": "align-items",
+      "option_b": "justify-content",
+      "option_c": "place-items",
+      "option_d": "content-align",
+      "correct_option": "B",
+      "is_active": true
+    }
+  },
+  {
+    "model": "quiz.question",
+    "pk": 44,
+    "fields": {
+      "category": 2,
+      "difficulty": "medium",
+      "question_text": "Which property creates a CSS grid container?",
+      "option_a": "display: grid",
+      "option_b": "grid: true",
+      "option_c": "layout: grid",
+      "option_d": "position: grid",
+      "correct_option": "A",
+      "is_active": true
+    }
+  },
+  {
+    "model": "quiz.question",
+    "pk": 45,
+    "fields": {
+      "category": 2,
+      "difficulty": "medium",
+      "question_text": "Which unit is relative to the root font size?",
+      "option_a": "em",
+      "option_b": "rem",
+      "option_c": "px",
+      "option_d": "vh",
+      "correct_option": "B",
+      "is_active": true
+    }
+  },
+  {
+    "model": "quiz.question",
+    "pk": 46,
+    "fields": {
+      "category": 2,
+      "difficulty": "medium",
+      "question_text": "Which property controls stacking order?",
+      "option_a": "index",
+      "option_b": "z-index",
+      "option_c": "stack",
+      "option_d": "order-index",
+      "correct_option": "B",
+      "is_active": true
+    }
+  },
+  {
+    "model": "quiz.question",
+    "pk": 47,
+    "fields": {
+      "category": 2,
+      "difficulty": "medium",
+      "question_text": "Which pseudo-class applies on mouse hover?",
+      "option_a": "::hover",
+      "option_b": ":hover",
+      "option_c": ":mouse",
+      "option_d": "::mouse",
+      "correct_option": "B",
+      "is_active": true
+    }
+  },
+  {
+    "model": "quiz.question",
+    "pk": 48,
+    "fields": {
+      "category": 2,
+      "difficulty": "medium",
+      "question_text": "Which property creates rounded corners?",
+      "option_a": "corner-radius",
+      "option_b": "border-radius",
+      "option_c": "radius",
+      "option_d": "round-border",
+      "correct_option": "B",
+      "is_active": true
+    }
+  },
+  {
+    "model": "quiz.question",
+    "pk": 49,
+    "fields": {
+      "category": 2,
+      "difficulty": "medium",
+      "question_text": "Which property controls transition duration?",
+      "option_a": "transition-time",
+      "option_b": "transition-duration",
+      "option_c": "duration",
+      "option_d": "animation-time",
+      "correct_option": "B",
+      "is_active": true
+    }
+  },
+  {
+    "model": "quiz.question",
+    "pk": 50,
+    "fields": {
+      "category": 2,
+      "difficulty": "medium",
+      "question_text": "Which media query targets screens up to 768px?",
+      "option_a": "@media max-width: 768px",
+      "option_b": "@media (max-width: 768px)",
+      "option_c": "@screen (768px)",
+      "option_d": "@media width <= 768",
+      "correct_option": "B",
+      "is_active": true
+    }
+  },
+  {
+    "model": "quiz.question",
+    "pk": 51,
+    "fields": {
+      "category": 2,
+      "difficulty": "hard",
+      "question_text": "What does specificity decide in CSS?",
+      "option_a": "Load speed",
+      "option_b": "Which rule wins when rules conflict",
+      "option_c": "Image size",
+      "option_d": "DOM order only",
+      "correct_option": "B",
+      "is_active": true
+    }
+  },
+  {
+    "model": "quiz.question",
+    "pk": 52,
+    "fields": {
+      "category": 2,
+      "difficulty": "hard",
+      "question_text": "Which selector has highest specificity?",
+      "option_a": "#header",
+      "option_b": ".header",
+      "option_c": "div",
+      "option_d": "*",
+      "correct_option": "A",
+      "is_active": true
+    }
+  },
+  {
+    "model": "quiz.question",
+    "pk": 53,
+    "fields": {
+      "category": 2,
+      "difficulty": "hard",
+      "question_text": "What does position: sticky do?",
+      "option_a": "Always fixed",
+      "option_b": "Acts relative until scroll threshold then sticks",
+      "option_c": "Removes element",
+      "option_d": "Only works in grid",
+      "correct_option": "B",
+      "is_active": true
+    }
+  },
+  {
+    "model": "quiz.question",
+    "pk": 54,
+    "fields": {
+      "category": 2,
+      "difficulty": "hard",
+      "question_text": "Which property helps create responsive images?",
+      "option_a": "max-width: 100%",
+      "option_b": "width: fixed",
+      "option_c": "image-fit: responsive",
+      "option_d": "height: auto-only",
+      "correct_option": "A",
+      "is_active": true
+    }
+  },
+  {
+    "model": "quiz.question",
+    "pk": 55,
+    "fields": {
+      "category": 2,
+      "difficulty": "hard",
+      "question_text": "Which CSS function can calculate dynamic values?",
+      "option_a": "calc()",
+      "option_b": "math()",
+      "option_c": "compute()",
+      "option_d": "value()",
+      "correct_option": "A",
+      "is_active": true
+    }
+  },
+  {
+    "model": "quiz.question",
+    "pk": 56,
+    "fields": {
+      "category": 2,
+      "difficulty": "hard",
+      "question_text": "What does box-sizing: border-box include in width?",
+      "option_a": "Only content",
+      "option_b": "Content plus padding and border",
+      "option_c": "Only margin",
+      "option_d": "Only border",
+      "correct_option": "B",
+      "is_active": true
+    }
+  },
+  {
+    "model": "quiz.question",
+    "pk": 57,
+    "fields": {
+      "category": 2,
+      "difficulty": "hard",
+      "question_text": "Which pseudo-element selects the first line of text?",
+      "option_a": "::first-line",
+      "option_b": ":first-line",
+      "option_c": "::line-one",
+      "option_d": ":line",
+      "correct_option": "A",
+      "is_active": true
+    }
+  },
+  {
+    "model": "quiz.question",
+    "pk": 58,
+    "fields": {
+      "category": 2,
+      "difficulty": "hard",
+      "question_text": "Which property defines grid column sizes?",
+      "option_a": "grid-template-columns",
+      "option_b": "grid-columns",
+      "option_c": "column-template",
+      "option_d": "grid-size-columns",
+      "correct_option": "A",
+      "is_active": true
+    }
+  },
+  {
+    "model": "quiz.question",
+    "pk": 59,
+    "fields": {
+      "category": 2,
+      "difficulty": "hard",
+      "question_text": "Which value prevents flex items from shrinking?",
+      "option_a": "flex-shrink: 0",
+      "option_b": "shrink: false",
+      "option_c": "flex-grow: 0",
+      "option_d": "flex-basis: auto",
+      "correct_option": "A",
+      "is_active": true
+    }
+  },
+  {
+    "model": "quiz.question",
+    "pk": 60,
+    "fields": {
+      "category": 2,
+      "difficulty": "hard",
+      "question_text": "Which CSS feature allows custom reusable variables?",
+      "option_a": "CSS custom properties",
+      "option_b": "CSS constants",
+      "option_c": "CSS memory",
+      "option_d": "CSS storage",
+      "correct_option": "A",
+      "is_active": true
+    }
+  },
+  {
+    "model": "quiz.question",
+    "pk": 61,
+    "fields": {
+      "category": 3,
+      "difficulty": "easy",
+      "question_text": "Which keyword declares a block-scoped variable?",
+      "option_a": "var",
+      "option_b": "let",
+      "option_c": "function",
+      "option_d": "scope",
+      "correct_option": "B",
+      "is_active": true
+    }
+  },
+  {
+    "model": "quiz.question",
+    "pk": 62,
+    "fields": {
+      "category": 3,
+      "difficulty": "easy",
+      "question_text": "Which keyword declares a constant variable?",
+      "option_a": "const",
+      "option_b": "let",
+      "option_c": "var",
+      "option_d": "static",
+      "correct_option": "A",
+      "is_active": true
+    }
+  },
+  {
+    "model": "quiz.question",
+    "pk": 63,
+    "fields": {
+      "category": 3,
+      "difficulty": "easy",
+      "question_text": "Which method prints output in browser console?",
+      "option_a": "print()",
+      "option_b": "console.log()",
+      "option_c": "echo()",
+      "option_d": "log.console()",
+      "correct_option": "B",
+      "is_active": true
+    }
+  },
+  {
+    "model": "quiz.question",
+    "pk": 64,
+    "fields": {
+      "category": 3,
+      "difficulty": "easy",
+      "question_text": "Which data type represents true or false?",
+      "option_a": "string",
+      "option_b": "number",
+      "option_c": "boolean",
+      "option_d": "object",
+      "correct_option": "C",
+      "is_active": true
+    }
+  },
+  {
+    "model": "quiz.question",
+    "pk": 65,
+    "fields": {
+      "category": 3,
+      "difficulty": "easy",
+      "question_text": "Which operator is used for strict equality?",
+      "option_a": "==",
+      "option_b": "===",
+      "option_c": "=",
+      "option_d": "!=",
+      "correct_option": "B",
+      "is_active": true
+    }
+  },
+  {
+    "model": "quiz.question",
+    "pk": 66,
+    "fields": {
+      "category": 3,
+      "difficulty": "easy",
+      "question_text": "Which symbol is used for comments in one line?",
+      "option_a": "//",
+      "option_b": "<!-- -->",
+      "option_c": "#",
+      "option_d": "**",
+      "correct_option": "A",
+      "is_active": true
+    }
+  },
+  {
+    "model": "quiz.question",
+    "pk": 67,
+    "fields": {
+      "category": 3,
+      "difficulty": "easy",
+      "question_text": "Which method converts JSON string to object?",
+      "option_a": "JSON.stringify()",
+      "option_b": "JSON.parse()",
+      "option_c": "JSON.object()",
+      "option_d": "parse.JSON()",
+      "correct_option": "B",
+      "is_active": true
+    }
+  },
+  {
+    "model": "quiz.question",
+    "pk": 68,
+    "fields": {
+      "category": 3,
+      "difficulty": "easy",
+      "question_text": "Which array method adds item at end?",
+      "option_a": "push()",
+      "option_b": "pop()",
+      "option_c": "shift()",
+      "option_d": "unshift()",
+      "correct_option": "A",
+      "is_active": true
+    }
+  },
+  {
+    "model": "quiz.question",
+    "pk": 69,
+    "fields": {
+      "category": 3,
+      "difficulty": "easy",
+      "question_text": "Which array method removes last item?",
+      "option_a": "push()",
+      "option_b": "pop()",
+      "option_c": "shift()",
+      "option_d": "slice()",
+      "correct_option": "B",
+      "is_active": true
+    }
+  },
+  {
+    "model": "quiz.question",
+    "pk": 70,
+    "fields": {
+      "category": 3,
+      "difficulty": "easy",
+      "question_text": "Which function runs code after a delay?",
+      "option_a": "setInterval",
+      "option_b": "setTimeout",
+      "option_c": "delay",
+      "option_d": "wait",
+      "correct_option": "B",
+      "is_active": true
+    }
+  },
+  {
+    "model": "quiz.question",
+    "pk": 71,
+    "fields": {
+      "category": 3,
+      "difficulty": "medium",
+      "question_text": "Which array method creates a new array by transforming items?",
+      "option_a": "forEach()",
+      "option_b": "map()",
+      "option_c": "filter()",
+      "option_d": "reduce()",
+      "correct_option": "B",
+      "is_active": true
+    }
+  },
+  {
+    "model": "quiz.question",
+    "pk": 72,
+    "fields": {
+      "category": 3,
+      "difficulty": "medium",
+      "question_text": "Which array method returns items that match a condition?",
+      "option_a": "map()",
+      "option_b": "filter()",
+      "option_c": "find()",
+      "option_d": "some()",
+      "correct_option": "B",
+      "is_active": true
+    }
+  },
+  {
+    "model": "quiz.question",
+    "pk": 73,
+    "fields": {
+      "category": 3,
+      "difficulty": "medium",
+      "question_text": "Which method returns the first matching item?",
+      "option_a": "find()",
+      "option_b": "filter()",
+      "option_c": "map()",
+      "option_d": "every()",
+      "correct_option": "A",
+      "is_active": true
+    }
+  },
+  {
+    "model": "quiz.question",
+    "pk": 74,
+    "fields": {
+      "category": 3,
+      "difficulty": "medium",
+      "question_text": "What is a Promise used for?",
+      "option_a": "Styling elements",
+      "option_b": "Handling asynchronous operations",
+      "option_c": "Creating CSS",
+      "option_d": "Declaring HTML",
+      "correct_option": "B",
+      "is_active": true
+    }
+  },
+  {
+    "model": "quiz.question",
+    "pk": 75,
+    "fields": {
+      "category": 3,
+      "difficulty": "medium",
+      "question_text": "Which syntax handles promises more cleanly?",
+      "option_a": "async/await",
+      "option_b": "loop/await",
+      "option_c": "promise/wait",
+      "option_d": "function/sleep",
+      "correct_option": "A",
+      "is_active": true
+    }
+  },
+  {
+    "model": "quiz.question",
+    "pk": 76,
+    "fields": {
+      "category": 3,
+      "difficulty": "medium",
+      "question_text": "Which keyword is used to handle errors in try block?",
+      "option_a": "catch",
+      "option_b": "error",
+      "option_c": "except",
+      "option_d": "handle",
+      "correct_option": "A",
+      "is_active": true
+    }
+  },
+  {
+    "model": "quiz.question",
+    "pk": 77,
+    "fields": {
+      "category": 3,
+      "difficulty": "medium",
+      "question_text": "What does DOM stand for?",
+      "option_a": "Document Object Model",
+      "option_b": "Data Object Model",
+      "option_c": "Digital Object Method",
+      "option_d": "Document Order Model",
+      "correct_option": "A",
+      "is_active": true
+    }
+  },
+  {
+    "model": "quiz.question",
+    "pk": 78,
+    "fields": {
+      "category": 3,
+      "difficulty": "medium",
+      "question_text": "Which method selects an element by id?",
+      "option_a": "queryId()",
+      "option_b": "getElementById()",
+      "option_c": "selectId()",
+      "option_d": "getById()",
+      "correct_option": "B",
+      "is_active": true
+    }
+  },
+  {
+    "model": "quiz.question",
+    "pk": 79,
+    "fields": {
+      "category": 3,
+      "difficulty": "medium",
+      "question_text": "Which event fires when a user clicks?",
+      "option_a": "change",
+      "option_b": "submit",
+      "option_c": "click",
+      "option_d": "input",
+      "correct_option": "C",
+      "is_active": true
+    }
+  },
+  {
+    "model": "quiz.question",
+    "pk": 80,
+    "fields": {
+      "category": 3,
+      "difficulty": "medium",
+      "question_text": "Which operator provides default value for null or undefined?",
+      "option_a": "||",
+      "option_b": "??",
+      "option_c": "&&",
+      "option_d": "?:",
+      "correct_option": "B",
+      "is_active": true
+    }
+  },
+  {
+    "model": "quiz.question",
+    "pk": 81,
+    "fields": {
+      "category": 3,
+      "difficulty": "hard",
+      "question_text": "What is closure in JavaScript?",
+      "option_a": "A function with access to outer scope",
+      "option_b": "A closed object",
+      "option_c": "A CSS feature",
+      "option_d": "A loop type",
+      "correct_option": "A",
+      "is_active": true
+    }
+  },
+  {
+    "model": "quiz.question",
+    "pk": 82,
+    "fields": {
+      "category": 3,
+      "difficulty": "hard",
+      "question_text": "What is event bubbling?",
+      "option_a": "Event moves from target up to ancestors",
+      "option_b": "Event moves only downward",
+      "option_c": "Event stops immediately",
+      "option_d": "Event repeats automatically",
+      "correct_option": "A",
+      "is_active": true
+    }
+  },
+  {
+    "model": "quiz.question",
+    "pk": 83,
+    "fields": {
+      "category": 3,
+      "difficulty": "hard",
+      "question_text": "Which method stops event bubbling?",
+      "option_a": "stopPropagation()",
+      "option_b": "preventDefault()",
+      "option_c": "stopBubble()",
+      "option_d": "cancelBubble()",
+      "correct_option": "A",
+      "is_active": true
+    }
+  },
+  {
+    "model": "quiz.question",
+    "pk": 84,
+    "fields": {
+      "category": 3,
+      "difficulty": "hard",
+      "question_text": "What does debouncing do?",
+      "option_a": "Limits function execution until activity stops",
+      "option_b": "Runs function every millisecond",
+      "option_c": "Deletes events",
+      "option_d": "Caches CSS",
+      "correct_option": "A",
+      "is_active": true
+    }
+  },
+  {
+    "model": "quiz.question",
+    "pk": 85,
+    "fields": {
+      "category": 3,
+      "difficulty": "hard",
+      "question_text": "What does throttling do?",
+      "option_a": "Runs function at controlled intervals",
+      "option_b": "Blocks all events",
+      "option_c": "Runs after page load only",
+      "option_d": "Converts values",
+      "correct_option": "A",
+      "is_active": true
+    }
+  },
+  {
+    "model": "quiz.question",
+    "pk": 86,
+    "fields": {
+      "category": 3,
+      "difficulty": "hard",
+      "question_text": "Which queue handles Promise callbacks?",
+      "option_a": "Microtask queue",
+      "option_b": "Macrotask queue only",
+      "option_c": "Render queue",
+      "option_d": "Style queue",
+      "correct_option": "A",
+      "is_active": true
+    }
+  },
+  {
+    "model": "quiz.question",
+    "pk": 87,
+    "fields": {
+      "category": 3,
+      "difficulty": "hard",
+      "question_text": "What does the spread operator do?",
+      "option_a": "Expands iterable values",
+      "option_b": "Deletes object values",
+      "option_c": "Compresses arrays",
+      "option_d": "Creates promises",
+      "correct_option": "A",
+      "is_active": true
+    }
+  },
+  {
+    "model": "quiz.question",
+    "pk": 88,
+    "fields": {
+      "category": 3,
+      "difficulty": "hard",
+      "question_text": "Which method can deeply clone simple JSON-safe objects?",
+      "option_a": "JSON.parse(JSON.stringify(obj))",
+      "option_b": "Object.assignDeep()",
+      "option_c": "clone.deep()",
+      "option_d": "copy(obj)",
+      "correct_option": "A",
+      "is_active": true
+    }
+  },
+  {
+    "model": "quiz.question",
+    "pk": 89,
+    "fields": {
+      "category": 3,
+      "difficulty": "hard",
+      "question_text": "What does this refer to in an arrow function?",
+      "option_a": "Lexical this from surrounding scope",
+      "option_b": "Always window",
+      "option_c": "Always object itself",
+      "option_d": "Always undefined",
+      "correct_option": "A",
+      "is_active": true
+    }
+  },
+  {
+    "model": "quiz.question",
+    "pk": 90,
+    "fields": {
+      "category": 3,
+      "difficulty": "hard",
+      "question_text": "Which feature allows importing/exporting modules?",
+      "option_a": "ES Modules",
+      "option_b": "DOM Modules",
+      "option_c": "CSS Modules only",
+      "option_d": "JSON Modules only",
+      "correct_option": "A",
+      "is_active": true
+    }
+  },
+  {
+    "model": "quiz.question",
+    "pk": 91,
+    "fields": {
+      "category": 4,
+      "difficulty": "easy",
+      "question_text": "What is React mainly used for?",
+      "option_a": "Building user interfaces",
+      "option_b": "Managing databases",
+      "option_c": "Creating servers",
+      "option_d": "Writing CSS only",
+      "correct_option": "A",
+      "is_active": true
+    }
+  },
+  {
+    "model": "quiz.question",
+    "pk": 92,
+    "fields": {
+      "category": 4,
+      "difficulty": "easy",
+      "question_text": "What is JSX?",
+      "option_a": "JavaScript XML syntax",
+      "option_b": "Java Syntax Extension",
+      "option_c": "JSON XML",
+      "option_d": "JavaScript Extra",
+      "correct_option": "A",
+      "is_active": true
+    }
+  },
+  {
+    "model": "quiz.question",
+    "pk": 93,
+    "fields": {
+      "category": 4,
+      "difficulty": "easy",
+      "question_text": "Which hook is used to manage state?",
+      "option_a": "useEffect",
+      "option_b": "useState",
+      "option_c": "useRef",
+      "option_d": "useMemo",
+      "correct_option": "B",
+      "is_active": true
+    }
+  },
+  {
+    "model": "quiz.question",
+    "pk": 94,
+    "fields": {
+      "category": 4,
+      "difficulty": "easy",
+      "question_text": "Which hook runs side effects?",
+      "option_a": "useState",
+      "option_b": "useEffect",
+      "option_c": "useContext",
+      "option_d": "useId",
+      "correct_option": "B",
+      "is_active": true
+    }
+  },
+  {
+    "model": "quiz.question",
+    "pk": 95,
+    "fields": {
+      "category": 4,
+      "difficulty": "easy",
+      "question_text": "What are props used for?",
+      "option_a": "Passing data to components",
+      "option_b": "Styling CSS",
+      "option_c": "Creating database",
+      "option_d": "Running server",
+      "correct_option": "A",
+      "is_active": true
+    }
+  },
+  {
+    "model": "quiz.question",
+    "pk": 96,
+    "fields": {
+      "category": 4,
+      "difficulty": "easy",
+      "question_text": "Which command creates a Vite React app?",
+      "option_a": "npm create vite@latest",
+      "option_b": "npm react create",
+      "option_c": "create-react-vite",
+      "option_d": "vite npm start",
+      "correct_option": "A",
+      "is_active": true
+    }
+  },
+  {
+    "model": "quiz.question",
+    "pk": 97,
+    "fields": {
+      "category": 4,
+      "difficulty": "easy",
+      "question_text": "React components must return what?",
+      "option_a": "JSX/UI",
+      "option_b": "Database",
+      "option_c": "CSS file",
+      "option_d": "Package file",
+      "correct_option": "A",
+      "is_active": true
+    }
+  },
+  {
+    "model": "quiz.question",
+    "pk": 98,
+    "fields": {
+      "category": 4,
+      "difficulty": "easy",
+      "question_text": "Which method renders lists in JSX?",
+      "option_a": "map()",
+      "option_b": "filter()",
+      "option_c": "reduce()",
+      "option_d": "forEach only",
+      "correct_option": "A",
+      "is_active": true
+    }
+  },
+  {
+    "model": "quiz.question",
+    "pk": 99,
+    "fields": {
+      "category": 4,
+      "difficulty": "easy",
+      "question_text": "Which attribute is used instead of class in JSX?",
+      "option_a": "className",
+      "option_b": "class",
+      "option_c": "cssClass",
+      "option_d": "styleClass",
+      "correct_option": "A",
+      "is_active": true
+    }
+  },
+  {
+    "model": "quiz.question",
+    "pk": 100,
+    "fields": {
+      "category": 4,
+      "difficulty": "easy",
+      "question_text": "Which prop is required for list items?",
+      "option_a": "key",
+      "option_b": "id",
+      "option_c": "name",
+      "option_d": "index",
+      "correct_option": "A",
+      "is_active": true
+    }
+  },
+  {
+    "model": "quiz.question",
+    "pk": 101,
+    "fields": {
+      "category": 4,
+      "difficulty": "medium",
+      "question_text": "Why is key important in React lists?",
+      "option_a": "Helps React identify changed items",
+      "option_b": "Adds CSS",
+      "option_c": "Creates routes",
+      "option_d": "Stores data",
+      "correct_option": "A",
+      "is_active": true
+    }
+  },
+  {
+    "model": "quiz.question",
+    "pk": 102,
+    "fields": {
+      "category": 4,
+      "difficulty": "medium",
+      "question_text": "Which hook stores a mutable value without re-rendering?",
+      "option_a": "useRef",
+      "option_b": "useState",
+      "option_c": "useEffect",
+      "option_d": "useMemo",
+      "correct_option": "A",
+      "is_active": true
+    }
+  },
+  {
+    "model": "quiz.question",
+    "pk": 103,
+    "fields": {
+      "category": 4,
+      "difficulty": "medium",
+      "question_text": "Which hook memoizes expensive calculations?",
+      "option_a": "useMemo",
+      "option_b": "useEffect",
+      "option_c": "useRef",
+      "option_d": "useReducer",
+      "correct_option": "A",
+      "is_active": true
+    }
+  },
+  {
+    "model": "quiz.question",
+    "pk": 104,
+    "fields": {
+      "category": 4,
+      "difficulty": "medium",
+      "question_text": "Which hook is useful for complex state logic?",
+      "option_a": "useReducer",
+      "option_b": "useId",
+      "option_c": "useLayout",
+      "option_d": "useFetch",
+      "correct_option": "A",
+      "is_active": true
+    }
+  },
+  {
+    "model": "quiz.question",
+    "pk": 105,
+    "fields": {
+      "category": 4,
+      "difficulty": "medium",
+      "question_text": "How do you pass data from child to parent?",
+      "option_a": "Callback function via props",
+      "option_b": "Direct database call",
+      "option_c": "CSS variable",
+      "option_d": "HTML event only",
+      "correct_option": "A",
+      "is_active": true
+    }
+  },
+  {
+    "model": "quiz.question",
+    "pk": 106,
+    "fields": {
+      "category": 4,
+      "difficulty": "medium",
+      "question_text": "What is conditional rendering?",
+      "option_a": "Showing UI based on conditions",
+      "option_b": "Rendering CSS only",
+      "option_c": "Creating conditions in DB",
+      "option_d": "Compiling HTML",
+      "correct_option": "A",
+      "is_active": true
+    }
+  },
+  {
+    "model": "quiz.question",
+    "pk": 107,
+    "fields": {
+      "category": 4,
+      "difficulty": "medium",
+      "question_text": "Which package is commonly used for routing?",
+      "option_a": "react-router-dom",
+      "option_b": "react-path",
+      "option_c": "router-react",
+      "option_d": "dom-router",
+      "correct_option": "A",
+      "is_active": true
+    }
+  },
+  {
+    "model": "quiz.question",
+    "pk": 108,
+    "fields": {
+      "category": 4,
+      "difficulty": "medium",
+      "question_text": "Which function is used to navigate programmatically in React Router?",
+      "option_a": "useNavigate",
+      "option_b": "useRoute",
+      "option_c": "goTo",
+      "option_d": "navigateTo",
+      "correct_option": "A",
+      "is_active": true
+    }
+  },
+  {
+    "model": "quiz.question",
+    "pk": 109,
+    "fields": {
+      "category": 4,
+      "difficulty": "medium",
+      "question_text": "What is controlled input?",
+      "option_a": "Input value controlled by React state",
+      "option_b": "Input controlled by browser only",
+      "option_c": "Disabled input",
+      "option_d": "Read-only input",
+      "correct_option": "A",
+      "is_active": true
+    }
+  },
+  {
+    "model": "quiz.question",
+    "pk": 110,
+    "fields": {
+      "category": 4,
+      "difficulty": "medium",
+      "question_text": "What is lifting state up?",
+      "option_a": "Moving shared state to common parent",
+      "option_b": "Deleting state",
+      "option_c": "Moving state to CSS",
+      "option_d": "Storing in localStorage only",
+      "correct_option": "A",
+      "is_active": true
+    }
+  },
+  {
+    "model": "quiz.question",
+    "pk": 111,
+    "fields": {
+      "category": 4,
+      "difficulty": "hard",
+      "question_text": "What problem does React.memo help solve?",
+      "option_a": "Avoiding unnecessary re-renders",
+      "option_b": "Creating CSS",
+      "option_c": "Fetching data",
+      "option_d": "Routing pages",
+      "correct_option": "A",
+      "is_active": true
+    }
+  },
+  {
+    "model": "quiz.question",
+    "pk": 112,
+    "fields": {
+      "category": 4,
+      "difficulty": "hard",
+      "question_text": "When should useCallback be used?",
+      "option_a": "To memoize function references",
+      "option_b": "To store numbers",
+      "option_c": "To replace useState",
+      "option_d": "To create CSS",
+      "correct_option": "A",
+      "is_active": true
+    }
+  },
+  {
+    "model": "quiz.question",
+    "pk": 113,
+    "fields": {
+      "category": 4,
+      "difficulty": "hard",
+      "question_text": "What is prop drilling?",
+      "option_a": "Passing props through many levels",
+      "option_b": "Deleting props",
+      "option_c": "Using CSS props",
+      "option_d": "Routing with props",
+      "correct_option": "A",
+      "is_active": true
+    }
+  },
+  {
+    "model": "quiz.question",
+    "pk": 114,
+    "fields": {
+      "category": 4,
+      "difficulty": "hard",
+      "question_text": "Which API helps avoid prop drilling for global data?",
+      "option_a": "Context API",
+      "option_b": "Fetch API",
+      "option_c": "DOM API",
+      "option_d": "Storage API",
+      "correct_option": "A",
+      "is_active": true
+    }
+  },
+  {
+    "model": "quiz.question",
+    "pk": 115,
+    "fields": {
+      "category": 4,
+      "difficulty": "hard",
+      "question_text": "What is reconciliation in React?",
+      "option_a": "Process of updating DOM efficiently",
+      "option_b": "Database migration",
+      "option_c": "CSS compilation",
+      "option_d": "Routing process",
+      "correct_option": "A",
+      "is_active": true
+    }
+  },
+  {
+    "model": "quiz.question",
+    "pk": 116,
+    "fields": {
+      "category": 4,
+      "difficulty": "hard",
+      "question_text": "What is virtual DOM?",
+      "option_a": "Lightweight representation of UI",
+      "option_b": "Browser database",
+      "option_c": "CSS engine",
+      "option_d": "Server memory",
+      "correct_option": "A",
+      "is_active": true
+    }
+  },
+  {
+    "model": "quiz.question",
+    "pk": 117,
+    "fields": {
+      "category": 4,
+      "difficulty": "hard",
+      "question_text": "Which hook can run before browser paint for layout reads?",
+      "option_a": "useLayoutEffect",
+      "option_b": "useEffect",
+      "option_c": "useMemo",
+      "option_d": "useRef",
+      "correct_option": "A",
+      "is_active": true
+    }
+  },
+  {
+    "model": "quiz.question",
+    "pk": 118,
+    "fields": {
+      "category": 4,
+      "difficulty": "hard",
+      "question_text": "What causes infinite re-render in useEffect?",
+      "option_a": "Updating dependency state repeatedly",
+      "option_b": "Using CSS",
+      "option_c": "Importing component",
+      "option_d": "Adding key",
+      "correct_option": "A",
+      "is_active": true
+    }
+  },
+  {
+    "model": "quiz.question",
+    "pk": 119,
+    "fields": {
+      "category": 4,
+      "difficulty": "hard",
+      "question_text": "What does lazy loading components improve?",
+      "option_a": "Initial bundle performance",
+      "option_b": "CSS specificity",
+      "option_c": "Database speed",
+      "option_d": "HTML validation",
+      "correct_option": "A",
+      "is_active": true
+    }
+  },
+  {
+    "model": "quiz.question",
+    "pk": 120,
+    "fields": {
+      "category": 4,
+      "difficulty": "hard",
+      "question_text": "Which React feature catches rendering errors in component tree?",
+      "option_a": "Error Boundary",
+      "option_b": "Try Hook",
+      "option_c": "Catch Component",
+      "option_d": "useError",
+      "correct_option": "A",
+      "is_active": true
+    }
+  }
+]
