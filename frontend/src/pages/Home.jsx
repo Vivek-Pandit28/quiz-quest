@@ -1,7 +1,8 @@
+import logo from "../assets/logo.png";
 import BgImage from "../assets/Student_Taking_Quiz.png";
 import { useNavigate } from "react-router-dom";
 import { motion } from "framer-motion";
-import { Play, History, Sparkles, Trophy} from "lucide-react";
+import { Play, History, Sparkles, Trophy } from "lucide-react";
 
 function Home() {
   const navigate = useNavigate();
@@ -12,14 +13,30 @@ function Home() {
       <div className="absolute top-20 left-10 w-72 h-72 bg-indigo-600/20 rounded-full blur-3xl"></div>
       <div className="absolute bottom-20 right-10 w-72 h-72 bg-purple-600/20 rounded-full blur-3xl"></div>
 
-      <motion.h1
+      <motion.div
         initial={{ opacity: 0, y: -25 }}
         animate={{ opacity: 1, y: 0 }}
         transition={{ duration: 0.6 }}
-        className="relative z-10 text-5xl pt-5 font-bold text-indigo-400"
+        className="relative z-10 flex items-center gap-4 pt-5"
       >
-        Quiz Quest
-      </motion.h1>
+        <div className="rounded-2xl p-2 bg-white/10 backdrop-blur-lg border border-white/10 shadow-lg shadow-indigo-500/30">
+          <img
+            src={logo}
+            alt="Quiz Quest Logo"
+            className="w-12 h-12 md:w-14 md:h-14 object-contain"
+          />
+        </div>
+
+        <div>
+          <h1 className="text-4xl md:text-5xl font-bold bg-gradient-to-r from-indigo-400 via-purple-400 to-pink-400 bg-clip-text text-transparent">
+            Quiz Quest
+          </h1>
+
+          <p className="text-xs md:text-sm text-slate-400">
+            Smart Quiz Platform
+          </p>
+        </div>
+      </motion.div>
 
       <section className="relative z-10 grid grid-cols-1 lg:grid-cols-2 gap-10 items-center py-16">
         <motion.div
