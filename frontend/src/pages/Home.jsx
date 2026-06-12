@@ -1,4 +1,4 @@
-import logo from "../assets/logo.png";
+import logo from "../assets/home_logo.png";
 import BgImage from "../assets/Student_Taking_Quiz.png";
 import { useNavigate } from "react-router-dom";
 import { motion } from "framer-motion";
@@ -17,23 +17,27 @@ function Home() {
         initial={{ opacity: 0, y: -25 }}
         animate={{ opacity: 1, y: 0 }}
         transition={{ duration: 0.6 }}
-        className="relative z-10 flex items-center gap-4 pt-5"
+        className="
+    relative z-10
+    flex items-center gap-3
+    pt-6 md:pt-10
+  "
       >
-        <div className="rounded-2xl p-2 bg-white/10 backdrop-blur-lg border border-white/10 shadow-lg shadow-indigo-500/30">
+        <div className="flex h-14 w-14 md:h-20 md:w-20 items-center justify-center">
           <img
             src={logo}
             alt="Quiz Quest Logo"
-            className="w-12 h-12 md:w-14 md:h-14 object-contain"
+            className="h-11 w-11 md:h-16 md:w-16 object-contain"
           />
         </div>
 
-        <div>
-          <h1 className="text-4xl md:text-5xl font-bold bg-gradient-to-r from-indigo-400 via-purple-400 to-pink-400 bg-clip-text text-transparent">
+        <div className="flex flex-col leading-none">
+          <h1 className="text-3xl sm:text-4xl md:text-6xl font-bold tracking-tight bg-gradient-to-r from-indigo-400 via-purple-400 to-pink-400 bg-clip-text text-transparent">
             Quiz Quest
           </h1>
 
-          <p className="text-xs md:text-sm text-slate-400">
-            Smart Quiz Platform
+          <p className="mt-2 text-xs sm:text-sm md:text-base font-medium tracking-[0.25em] uppercase text-purple-200/80">
+            Sharpen Your Mind
           </p>
         </div>
       </motion.div>
