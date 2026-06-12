@@ -17,22 +17,8 @@ Including another URLconf
 from django.contrib import admin
 from django.urls import path, include
 
-from django.http import JsonResponse
-from django.contrib.auth.models import User
-
-def create_admin(request):
-    user, created = User.objects.get_or_create(username="admin")
-    user.is_staff = True
-    user.is_superuser = True
-    user.set_password("admin123456")
-    user.save()
-
-    return JsonResponse({"message": "Admin ready"})
-
 urlpatterns = [
     path('admin/', admin.site.urls),
     path("api/", include("quiz.urls")),
     path("api/", include("attempts.urls")),
-
-    path("create-admin/", create_admin),
 ]
