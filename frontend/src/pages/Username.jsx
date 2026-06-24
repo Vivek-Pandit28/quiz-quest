@@ -14,12 +14,19 @@ function Username() {
   const handleSubmit = (e) => {
     e.preventDefault();
 
-    if (!name.trim()) {
+    const cleanName = name.trim();
+
+    if (!cleanName) {
       setError("Please enter your name");
       return;
     }
 
-    localStorage.setItem("quiz_name", name.trim());
+    if (cleanName.length < 2) {
+      setError("Name must be at least 2 characters long");
+      return;
+    }
+
+    localStorage.setItem("quiz_name", cleanName);
     navigate("/category");
   };
 

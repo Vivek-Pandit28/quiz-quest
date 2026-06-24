@@ -143,8 +143,30 @@ function Quiz() {
 
   if (loading) {
     return (
-      <div className="min-h-screen bg-slate-950 text-white flex items-center justify-center">
-        Loading Questions...
+      <div className="min-h-screen bg-slate-950 text-white flex items-center justify-center px-4">
+        <div className="text-center">
+          <div className="relative mx-auto mb-6 h-20 w-20">
+            <div className="absolute inset-0 rounded-full border-4 border-slate-700"></div>
+            <div className="absolute inset-0 rounded-full border-4 border-t-indigo-500 border-r-purple-500 border-b-transparent border-l-transparent animate-spin"></div>
+            <div className="absolute inset-4 rounded-full bg-slate-900 flex items-center justify-center text-2xl">
+              🧠
+            </div>
+          </div>
+
+          <h2 className="text-2xl font-bold mb-2">
+            Preparing your questions...
+          </h2>
+
+          <p className="text-slate-400 mb-8">
+            Loading fresh random quiz for you
+          </p>
+
+          <div className="w-72 mx-auto space-y-3">
+            <div className="h-4 bg-slate-800 rounded-full animate-pulse"></div>
+            <div className="h-4 bg-slate-800 rounded-full animate-pulse w-5/6 mx-auto"></div>
+            <div className="h-4 bg-slate-800 rounded-full animate-pulse w-4/6 mx-auto"></div>
+          </div>
+        </div>
       </div>
     );
   }
